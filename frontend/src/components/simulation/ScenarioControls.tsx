@@ -19,11 +19,11 @@ export const PRESET_SCENARIOS: ScenarioConfig[] = [
   {
     presetKey: 'road_accident',
     title: 'Road Accident',
-    description: 'Highway 101 multi-vehicle crash with severe trauma and thoracic injuries.',
+    description: 'Collision near FC Road / Deccan Gymkhana with severe trauma and thoracic injuries.',
     severity: 'CRITICAL',
     patientAge: 42,
-    latitude: 37.7750,
-    longitude: -122.4180,
+    latitude: 18.5204,
+    longitude: 73.841,
     traumaRequired: true,
     requirements: {
       ICU_BED: 1,
@@ -34,11 +34,11 @@ export const PRESET_SCENARIOS: ScenarioConfig[] = [
   {
     presetKey: 'cardiac_emergency',
     title: 'Cardiac Emergency',
-    description: 'Acute myocardial infarction requiring urgent cardiac ICU monitoring & oxygen.',
+    description: 'Acute myocardial infarction near Swargate Chowk requiring urgent cardiac ICU.',
     severity: 'CRITICAL',
     patientAge: 64,
-    latitude: 37.7833,
-    longitude: -122.4167,
+    latitude: 18.5018,
+    longitude: 73.858,
     traumaRequired: false,
     requirements: {
       ICU_BED: 1,
@@ -48,11 +48,11 @@ export const PRESET_SCENARIOS: ScenarioConfig[] = [
   {
     presetKey: 'respiratory_failure',
     title: 'Respiratory Failure',
-    description: 'Acute respiratory distress syndrome requiring immediate mechanical ventilation.',
+    description: 'Acute respiratory distress syndrome near Shivajinagar requiring mechanical ventilation.',
     severity: 'HIGH',
     patientAge: 58,
-    latitude: 37.7650,
-    longitude: -122.4250,
+    latitude: 18.5314,
+    longitude: 73.851,
     traumaRequired: false,
     requirements: {
       VENTILATOR: 1,
@@ -62,11 +62,11 @@ export const PRESET_SCENARIOS: ScenarioConfig[] = [
   {
     presetKey: 'mass_casualty',
     title: 'Mass Casualty Event',
-    description: 'Structural collapse incident with multiple critical trauma casualties.',
+    description: 'Industrial incident near Hadapsar / Magarpatta City with multiple critical casualties.',
     severity: 'CRITICAL',
     patientAge: 35,
-    latitude: 37.7700,
-    longitude: -122.4200,
+    latitude: 18.5089,
+    longitude: 73.926,
     traumaRequired: true,
     requirements: {
       TRAUMA_BED: 2,
